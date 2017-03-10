@@ -1,0 +1,19 @@
+{
+  "name": "todo_list_api",
+  "version": "1.0.0",
+  "description": "API To get a ToDo task list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.1",
+    "express": "^4.15.2",
+    "express-routemap": "^1.0.2",
+    "lodash": "^4.17.4",
+    "rethinkdbdash": "^2.3.28"
+  }
+}
