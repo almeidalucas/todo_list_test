@@ -111,6 +111,7 @@ class App extends Component {
           <h2>React ToDo List</h2>
         </div>
         <div className="App-container" style={{width: 400, marginBottom: 23, display:'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start',}}>
+          <span>*Double click a task to toggle Done/Pending.</span>
           <div style={{width: 400, display:'flex', flexDirection: 'row', justifyContent: 'space-between',}}>
             <RaisedButton 
               onClick={(e) => {
