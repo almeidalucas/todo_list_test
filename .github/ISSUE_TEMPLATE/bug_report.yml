@@ -8,28 +8,28 @@ body:
       value: |
         Please provide all the information requested. Issues that do not follow this format are likely to stall.
   - type: textarea
-      id: description
-      attributes:
-        label: Description
-        description: Please provide a clear and concise description of what the bug is. Include screenshots if needed. We ask kindly to use the latest version of the stack `stk update stack crystal-typescript-api-stack` and the latest version of STK CLI `stk upgrade`
-      validations:
-        required: true
+    id: description
+    attributes:
+      label: Description
+      description: Please provide a clear and concise description of what the bug is. Include screenshots if needed. We ask kindly to use the latest version of the stack `stk update stack crystal-typescript-api-stack` and the latest version of STK CLI `stk upgrade`
+    validations:
+      required: true
   - type: input
-      id: stk-version
-      attributes:
-        label: STK CLI Version
-        description: What STK CLI version did happen the issue?
-        placeholder: ex. 3.6.2
-      validations:
-        required: true
+    id: stk-version
+    attributes:
+      label: STK CLI Version
+      description: What STK CLI version did happen the issue?
+      placeholder: ex. 3.6.2
+    validations:
+      required: true
   - type: input
-      id: plugin-version
-      attributes:
-        label: Plugin Version
-        description: What Plugin version did happen the issue?
-        placeholder: ex. 0.3.1
-      validations:
-        required: true
+    id: plugin-version
+    attributes:
+      label: Plugin Version
+      description: What Plugin version did happen the issue?
+      placeholder: ex. 0.3.1
+    validations:
+      required: true
   - type: checkboxes
     id: operational-system
     attributes:
@@ -40,16 +40,16 @@ body:
         - label: Ubuntu
         - label: Windows
   - type: textarea
-      id: reproduction
-      attributes:
-        label: Steps to reproduce
-        description: Please provide a detailed list of steps that reproduce the issue.
-      validations:
-        required: true
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Please provide a detailed list of steps that reproduce the issue.
+    validations:
+      required: true
   - type: textarea
-      id: expected-behavior
-      attributes:
-        label: Expected behavior
-        description: Please describe the behavior that should happen.
-      validations:
-        required: true
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Please describe the behavior that should happen.
+    validations:
+      required: true
