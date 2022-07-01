@@ -1,6 +1,7 @@
 name: 🐛 Bug Report
 description: Report a reproducible bug or regression in OpenAPI Plugin.
-labels: ["bug"]
+title: "[Bug]: "
+labels: ["bug", "triage"]
 body:
   - type: markdown
     attributes:
